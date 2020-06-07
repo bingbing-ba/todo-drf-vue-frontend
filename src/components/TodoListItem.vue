@@ -1,5 +1,5 @@
 <template>
-  <div class="todo-input-box flex-space-between">
+  <div class="todo-input-box flex-space-between cursor-grab">
     <div class="flex align-center">
       <i :class="checkButtonClass" @click="toggleIsCompleted" class="btn"></i>
       <input
@@ -63,5 +63,8 @@ export default {
 }
 .align-center {
   align-items: center;
+}
+.cursor-grab {
+  cursor: grab;
 }
 </style>

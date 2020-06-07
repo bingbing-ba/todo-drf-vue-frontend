@@ -57,7 +57,6 @@ export default {
   background-color: rgb(50, 50, 50);
   margin: 10px 0;
   padding: 10px 10px;
-  cursor: grab;
 }
 .todo-input {
   margin-left: 10px;
@@ -65,6 +64,7 @@ export default {
   background-color: transparent;
   color: white;
   font-size: 1rem;
+  width: 70vw;
 }
 .todo-input:focus {
   outline: none;
